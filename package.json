@@ -1,0 +1,32 @@
+{
+  "name": "koa2-template",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production && pm2 start app.js",
+    "dev": "cross-env NODE_ENV=development && nodemon app.js",
+    "test": "cross-env NODE_ENV=development && pm2 start app.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-favicon": "^2.0.1",
+    "koa-json": "^2.0.2",
+    "koa-log4": "^2.2.1",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "koa2-dot": "^2.3.3",
+    "koa2-useragent": "^0.2.8",
+    "log4js": "^3.0.0",
+    "sync-request": "^6.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "nodemon": "^1.8.1"
+  }
+}
